@@ -1,0 +1,55 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes rc{
+    from{transform: rotate(0deg);}to{
+        transform: rotate(360deg);
+    }
+   
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav{
+    height: 45px;
+    background-color: rgb(219, 53, 53);
+   
+}
+
+.nav a{
+    display: inline-block;
+    color: #fff;
+    line-height: 45px;
+    text-align: center;
+    padding-left: 10px;
+}
+.nav a:hover{
+    color: coral;
+}
+.spx{
+    height: 2px;
+    margin-top: 0px;
+  background-color:darkgreen;
+}
+.rc{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(233, 20, 20);
+    background: url(../img/lbimg/lb_1.jpeg);
+    animation: rc;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
